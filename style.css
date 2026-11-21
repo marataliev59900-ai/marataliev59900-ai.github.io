@@ -44,7 +44,8 @@ main {
 main h2 { margin-bottom: 12px; }
 main h3 { margin: 24px 0 12px; }
 main p { margin-bottom: 12px; }
-main ul { margin: 0 0 12px 24px; }
+main ul, main ol { margin: 0 0 12px 24px; }
+main li { margin-bottom: 6px; }
 table {
     border-collapse: collapse;
     width: 100%;
@@ -83,3 +84,9 @@ footer {
     main { margin: 12px; padding: 16px; }
     nav a { display: inline-block; margin-bottom: 4px; }
 }
+main li a { color: #2c3e50; font-weight: bold; }
+main li a:hover { color: #f39c12; }
+main ol { margin-left: 24px; }
+.pager { display: flex; justify-content: space-between; gap: 12px; margin-top: 24px; padding-top: 16px; border-top: 1px solid #ddd; }
+.pager a { color: #2c3e50; font-weight: bold; text-decoration: none; }
+.pager a:hover { color: #f39c12; }
